@@ -8,7 +8,25 @@ public class HistoryOfCompile {
     // ===================================================================================
     //                                                                     Condition Query
     //                                                                     ===============
+    // plain
+    //    2016-08-20 17:56:03,062 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m10s718ms
+    //    2016-08-20 17:56:03,062 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s857ms
+    //    2016-08-20 17:56:03,062 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m11s493ms
+    //    2016-08-20 17:56:03,069 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m11s022ms
+    //    2016-08-20 17:48:24,435 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m11s726ms
+    //    2016-08-20 17:48:24,436 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s647ms
+    //    2016-08-20 17:48:24,436 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m11s266ms
+    //    2016-08-20 17:48:24,443 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m11s213ms
+    //    2016-08-20 17:26:53,325 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m10s465ms
+    //    2016-08-20 17:26:53,326 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m11s718ms
+    //    2016-08-20 17:26:53,326 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s692ms
+    //    2016-08-20 17:26:53,332 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s958ms
+    //
     // reduced query
+    //    2016-08-20 17:54:53,766 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m10s537ms
+    //    2016-08-20 17:54:53,766 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s784ms
+    //    2016-08-20 17:54:53,767 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s456ms
+    //    2016-08-20 17:54:53,773 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s592ms
     //    2016-08-20 17:47:17,285 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m10s544ms
     //    2016-08-20 17:47:17,285 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m11s055ms
     //    2016-08-20 17:47:17,285 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s123ms
@@ -33,6 +51,16 @@ public class HistoryOfCompile {
     // ===================================================================================
     //                                                                          ForeignKey
     //                                                                          ==========
+    // plain
+    //    2016-08-20 17:48:24,435 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m11s726ms
+    //    2016-08-20 17:48:24,436 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s647ms
+    //    2016-08-20 17:48:24,436 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m11s266ms
+    //    2016-08-20 17:48:24,443 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m11s213ms
+    //    2016-08-20 17:26:53,325 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m10s465ms
+    //    2016-08-20 17:26:53,326 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m11s718ms
+    //    2016-08-20 17:26:53,326 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s692ms
+    //    2016-08-20 17:26:53,332 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s958ms
+    //
     // without FK
     //    2016-08-20 17:36:43,408 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m10s465ms
     //    2016-08-20 17:36:43,408 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s750ms
@@ -57,6 +85,16 @@ public class HistoryOfCompile {
     // ===================================================================================
     //                                                                             JavaDoc
     //                                                                             =======
+    // plain
+    //    2016-08-20 17:26:53,325 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m10s465ms
+    //    2016-08-20 17:26:53,326 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m11s718ms
+    //    2016-08-20 17:26:53,326 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s692ms
+    //    2016-08-20 17:26:53,332 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s958ms
+    //    2016-08-20 17:17:11,166 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m10s921ms
+    //    2016-08-20 17:17:11,166 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s810ms
+    //    2016-08-20 17:17:11,166 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s673ms
+    //    2016-08-20 17:17:11,173 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s801ms
+    //
     // without javadoc
     //    2016-08-20 17:23:52,830 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m10s867ms
     //    2016-08-20 17:23:52,830 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s341ms
@@ -81,7 +119,25 @@ public class HistoryOfCompile {
     // ===================================================================================
     //                                                                             Imports
     //                                                                             =======
+    // plain
+    //    2016-08-20 17:56:03,062 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m10s718ms
+    //    2016-08-20 17:56:03,062 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s857ms
+    //    2016-08-20 17:56:03,062 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m11s493ms
+    //    2016-08-20 17:56:03,069 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m11s022ms
+    //    2016-08-20 17:17:11,166 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m10s921ms
+    //    2016-08-20 17:17:11,166 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s810ms
+    //    2016-08-20 17:17:11,166 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s673ms
+    //    2016-08-20 17:17:11,173 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s801ms
+    //    2016-08-20 17:07:47,113 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m11s124ms
+    //    2016-08-20 17:07:47,113 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s479ms
+    //    2016-08-20 17:07:47,114 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s612ms
+    //    2016-08-20 17:07:47,120 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s738ms
+    //
     // organized imports
+    //    2016-08-20 17:53:11,756 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m10s677ms
+    //    2016-08-20 17:53:11,756 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s401ms
+    //    2016-08-20 17:53:11,756 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m11s140ms
+    //    2016-08-20 17:53:11,763 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s739ms
     //    2016-08-20 17:15:03,209 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m10s466ms
     //    2016-08-20 17:15:03,210 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m11s308ms
     //    2016-08-20 17:15:03,210 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s752ms
@@ -97,7 +153,29 @@ public class HistoryOfCompile {
     // ===================================================================================
     //                                                                                Tab
     //                                                                               =====
+    // plain
+    //    2016-08-20 18:02:31,261 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m11s628ms
+    //    2016-08-20 18:02:31,261 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s754ms
+    //    2016-08-20 18:02:31,261 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s228ms
+    //    2016-08-20 18:02:31,266 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s870ms
+    //    2016-08-20 17:04:07,182 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m11s569ms
+    //    2016-08-20 17:04:07,182 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s585ms
+    //    2016-08-20 17:04:07,182 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s657ms
+    //    2016-08-20 17:04:07,189 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s937ms
+    //    2016-08-20 16:52:40,046 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m11s375ms
+    //    2016-08-20 16:52:40,046 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s269ms
+    //    2016-08-20 16:52:40,046 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s862ms
+    //    2016-08-20 16:52:40,053 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s835ms
+    //
     // hard tab
+    //    2016-08-20 18:01:23,714 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m11s290ms
+    //    2016-08-20 18:01:23,714 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s869ms
+    //    2016-08-20 18:01:23,715 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s379ms
+    //    2016-08-20 18:01:23,721 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s846ms
+    //    2016-08-20 18:00:13,124 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m10s804ms
+    //    2016-08-20 18:00:13,125 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m09s805ms
+    //    2016-08-20 18:00:13,125 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s449ms
+    //    2016-08-20 18:00:13,130 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s352ms
     //    2016-08-20 17:02:42,205 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m09s783ms
     //    2016-08-20 17:02:42,205 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s979ms
     //    2016-08-20 17:02:42,205 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s712ms

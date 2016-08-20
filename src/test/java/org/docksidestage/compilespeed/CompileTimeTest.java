@@ -25,6 +25,14 @@ public class CompileTimeTest extends UnitContainerTestCase {
         log("Total file count: {}", fileInfo.getSourceInfoList().size());
     }
 
+    //    2016-08-20 18:42:32,913 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m11s762ms
+    //    2016-08-20 18:42:32,913 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s750ms
+    //    2016-08-20 18:42:32,913 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s836ms
+    //    2016-08-20 18:42:32,920 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m11s116ms
+    //    2016-08-20 17:56:03,062 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m10s718ms
+    //    2016-08-20 17:56:03,062 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s857ms
+    //    2016-08-20 17:56:03,062 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m11s493ms
+    //    2016-08-20 17:56:03,069 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m11s022ms
     //    2016-08-20 17:48:24,435 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m11s726ms
     //    2016-08-20 17:48:24,436 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s647ms
     //    2016-08-20 17:48:24,436 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m11s266ms
