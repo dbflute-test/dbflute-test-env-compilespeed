@@ -1,4 +1,4 @@
-package org.docksidestage.compilespeed;
+package org.docksidestage.compilespeed.analyzer;
 
 import java.io.File;
 import java.util.ArrayList;
