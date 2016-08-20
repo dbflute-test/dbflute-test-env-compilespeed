@@ -3,7 +3,20 @@ package org.docksidestage.compilespeed.history;
 /**
  * @author jflute
  */
-public class CompileHistory {
+public class InvalidHistory {
+
+    // *non-clean compile so invalid
+    // ===================================================================================
+    //                                                                          ForeignKey
+    //                                                                          ==========
+    // without FK
+    //    2016-08-20 16:36:27,847 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m02s236ms
+    //    2016-08-20 16:36:27,847 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m02s313ms
+    //    2016-08-20 16:36:27,847 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m02s244ms
+    //    2016-08-20 16:36:27,859 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m02s264ms
+    //    2016-08-20 16:36:29,812 [main]-DEBUG (PlainTestCase@log():660) - Total line count: 114224
+    //    2016-08-20 16:36:29,812 [main]-DEBUG (PlainTestCase@log():660) - Total word count: 5950029
+    //    2016-08-20 16:36:29,812 [main]-DEBUG (PlainTestCase@log():660) - Total file count: 428
 
     // ===================================================================================
     //                                                                             JavaDoc
