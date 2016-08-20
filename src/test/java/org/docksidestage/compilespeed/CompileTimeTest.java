@@ -25,6 +25,26 @@ public class CompileTimeTest extends UnitContainerTestCase {
         log("Total file count: {}", fileInfo.getSourceInfoList().size());
     }
 
+    //    2016-08-20 17:48:24,435 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m11s726ms
+    //    2016-08-20 17:48:24,436 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s647ms
+    //    2016-08-20 17:48:24,436 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m11s266ms
+    //    2016-08-20 17:48:24,443 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m11s213ms
+    //    2016-08-20 17:26:53,325 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m10s465ms
+    //    2016-08-20 17:26:53,326 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m11s718ms
+    //    2016-08-20 17:26:53,326 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s692ms
+    //    2016-08-20 17:26:53,332 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s958ms
+    //    2016-08-20 17:17:11,166 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m10s921ms
+    //    2016-08-20 17:17:11,166 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s810ms
+    //    2016-08-20 17:17:11,166 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s673ms
+    //    2016-08-20 17:17:11,173 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s801ms
+    //    2016-08-20 17:07:47,113 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m11s124ms
+    //    2016-08-20 17:07:47,113 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s479ms
+    //    2016-08-20 17:07:47,114 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s612ms
+    //    2016-08-20 17:07:47,120 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s738ms
+    //    2016-08-20 17:04:07,182 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m11s569ms
+    //    2016-08-20 17:04:07,182 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s585ms
+    //    2016-08-20 17:04:07,182 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s657ms
+    //    2016-08-20 17:04:07,189 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s937ms
     //    2016-08-20 16:52:40,046 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m11s375ms
     //    2016-08-20 16:52:40,046 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s269ms
     //    2016-08-20 16:52:40,046 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s862ms
