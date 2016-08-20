@@ -6,6 +6,24 @@ package org.docksidestage.compilespeed.history;
 public class HistoryOfCompile {
 
     // ===================================================================================
+    //                                                                              Lombok
+    //                                                                              ======
+    // use lombok data at entity, dbmeta, behavior, CB, CQ
+    //    2016-08-20 18:58:22,460 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m17s529ms
+    //    2016-08-20 18:58:22,460 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m17s240ms
+    //    2016-08-20 18:58:22,460 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m16s296ms
+    //    2016-08-20 18:58:22,467 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m17s021ms
+    // use lombok
+    //    2016-08-20 18:54:11,137 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m14s607ms
+    //    2016-08-20 18:54:11,137 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m14s020ms
+    //    2016-08-20 18:54:11,137 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m14s056ms
+    //    2016-08-20 18:54:11,145 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m14s227ms
+    //    2016-08-20 18:51:47,740 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m14s860ms
+    //    2016-08-20 18:51:47,740 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m13s910ms
+    //    2016-08-20 18:51:47,740 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m14s154ms
+    //    2016-08-20 18:51:47,747 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m14s308ms
+
+    // ===================================================================================
     //                                                                     Condition Query
     //                                                                     ===============
     // plain

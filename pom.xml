@@ -191,6 +191,19 @@
 		</dependency>
 
 		<!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+		<!--                                                                       Partner -->
+		<!--                                                                       = = = = -->
+		<!-- lombok to analyze compile cost -->
+		<!--
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.16.4</version>
+			<scope>provided</scope>
+		</dependency>
+		 -->
+
+		<!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
 		<!--                                                                       Testing -->
 		<!--                                                                       = = = = -->
 		<dependency>
