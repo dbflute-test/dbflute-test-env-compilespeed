@@ -8,12 +8,27 @@ public class HistoryOfCompile {
     // ===================================================================================
     //                                                                              Lombok
     //                                                                              ======
-    // use lombok data at entity, dbmeta, behavior, CB, CQ
+    // plain
+    //    2016-08-20 19:08:38,219 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m10s823ms
+    //    2016-08-20 19:08:38,219 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s314ms
+    //    2016-08-20 19:08:38,219 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m11s501ms
+    //    2016-08-20 19:08:38,226 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s879ms
+    //    2016-08-20 19:06:23,428 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m10s194ms
+    //    2016-08-20 19:06:23,428 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s084ms
+    //    2016-08-20 19:06:23,428 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m11s239ms
+    //    2016-08-20 19:06:23,434 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s505ms
+    //
+    // has lombok Eclipse plug-in and no dependency
+    //    2016-08-20 19:02:22,654 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m11s061ms
+    //    2016-08-20 19:02:22,654 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m11s180ms
+    //    2016-08-20 19:02:22,654 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s999ms
+    //    2016-08-20 19:02:22,661 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m11s080ms
+    // with lombok using data at entity, dbmeta, behavior, CB, CQ
     //    2016-08-20 18:58:22,460 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m17s529ms
     //    2016-08-20 18:58:22,460 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m17s240ms
     //    2016-08-20 18:58:22,460 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m16s296ms
     //    2016-08-20 18:58:22,467 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m17s021ms
-    // use lombok
+    // with lombok (lombok Eclipse plug-in and dependency)
     //    2016-08-20 18:54:11,137 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m14s607ms
     //    2016-08-20 18:54:11,137 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m14s020ms
     //    2016-08-20 18:54:11,137 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m14s056ms

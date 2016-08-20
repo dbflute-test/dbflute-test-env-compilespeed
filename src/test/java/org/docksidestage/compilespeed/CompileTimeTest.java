@@ -25,6 +25,15 @@ public class CompileTimeTest extends UnitContainerTestCase {
         log("Total file count: {}", fileInfo.getSourceInfoList().size());
     }
 
+    // plain
+    //    2016-08-20 19:08:38,219 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m10s823ms
+    //    2016-08-20 19:08:38,219 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s314ms
+    //    2016-08-20 19:08:38,219 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m11s501ms
+    //    2016-08-20 19:08:38,226 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s879ms
+    //    2016-08-20 19:06:23,428 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m10s194ms
+    //    2016-08-20 19:06:23,428 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s084ms
+    //    2016-08-20 19:06:23,428 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m11s239ms
+    //    2016-08-20 19:06:23,434 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s505ms
     //    2016-08-20 18:42:32,913 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m11s762ms
     //    2016-08-20 18:42:32,913 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s750ms
     //    2016-08-20 18:42:32,913 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s836ms
@@ -60,4 +69,10 @@ public class CompileTimeTest extends UnitContainerTestCase {
     //    2016-08-20 16:52:40,054 [main]-DEBUG (PlainTestCase@log():660) - Total line count: 122443
     //    2016-08-20 16:52:40,054 [main]-DEBUG (PlainTestCase@log():660) - Total word count: 6411084
     //    2016-08-20 16:52:40,054 [main]-DEBUG (PlainTestCase@log():660) - Total file count: 437
+
+    // non-clean non-change compile
+    //    2016-08-20 19:10:42,738 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m02s478ms
+    //    2016-08-20 19:10:42,738 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m02s495ms
+    //    2016-08-20 19:10:42,738 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m02s373ms
+    //    2016-08-20 19:10:42,745 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m02s448ms
 }

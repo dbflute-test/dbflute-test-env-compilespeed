@@ -1,9 +1,9 @@
-package org.docksidestage.compilespeed.history;
+package org.docksidestage.compilespeed.history.invalid;
 
 /**
  * @author jflute
  */
-public class InvalidHistory {
+public class NonCleanInvalidHistory {
 
     // *non-clean compile so invalid
     // ===================================================================================
