@@ -62,27 +62,31 @@ public class HistoryOfCompile {
     //                                                                                Tab
     //                                                                               =====
     // soft tab
-    //    2016-08-16 17:01:10,935 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m02s212ms
-    //    2016-08-16 17:01:10,935 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m02s152ms
-    //    2016-08-16 17:01:10,935 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m02s235ms
-    //    2016-08-16 17:01:10,943 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m02s199ms
-    //    2016-08-16 16:59:47,903 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m02s997ms
-    //    2016-08-16 16:59:47,903 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m02s178ms
-    //    2016-08-16 16:59:47,903 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m02s192ms
-    //    2016-08-16 16:59:47,912 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m02s455ms
-    //    2016-08-16 16:59:50,235 [main]-DEBUG (PlainTestCase@log():660) - Total line count: 122443
-    //    2016-08-16 16:59:50,235 [main]-DEBUG (PlainTestCase@log():660) - Total word count: 6403669
-    //    2016-08-16 16:59:50,235 [main]-DEBUG (PlainTestCase@log():660) - Total file count: 437
+    //    2016-08-20 17:07:47,113 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m11s124ms
+    //    2016-08-20 17:07:47,113 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s479ms
+    //    2016-08-20 17:07:47,114 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s612ms
+    //    2016-08-20 17:07:47,120 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s738ms
+    //    2016-08-20 17:04:07,182 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m11s569ms
+    //    2016-08-20 17:04:07,182 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s585ms
+    //    2016-08-20 17:04:07,182 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s657ms
+    //    2016-08-20 17:04:07,189 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s937ms
+    //    2016-08-20 17:04:07,189 [main]-DEBUG (PlainTestCase@log():660) - Total line count: 122443
+    //    2016-08-20 17:04:07,189 [main]-DEBUG (PlainTestCase@log():660) - Total word count: 6411084
+    //    2016-08-20 17:04:07,189 [main]-DEBUG (PlainTestCase@log():660) - Total file count: 437
     // hard tab
-    //    2016-08-16 16:58:21,590 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m02s271ms
-    //    2016-08-16 16:58:21,590 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m02s162ms
-    //    2016-08-16 16:58:21,590 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m02s211ms
-    //    2016-08-16 16:58:21,600 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m02s214ms
-    //    2016-08-16 16:57:28,414 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m02s186ms
-    //    2016-08-16 16:57:28,414 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m02s209ms
-    //    2016-08-16 16:57:28,414 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m02s199ms
-    //    2016-08-16 16:57:28,423 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m02s198ms
-    //    2016-08-16 16:57:30,606 [main]-DEBUG (PlainTestCase@log():660) - Total line count: 122443
-    //    2016-08-16 16:57:30,607 [main]-DEBUG (PlainTestCase@log():660) - Total word count: 6110635
-    //    2016-08-16 16:57:30,607 [main]-DEBUG (PlainTestCase@log():660) - Total file count: 437
+    //    2016-08-20 17:02:42,205 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m09s783ms
+    //    2016-08-20 17:02:42,205 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s979ms
+    //    2016-08-20 17:02:42,205 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s712ms
+    //    2016-08-20 17:02:42,210 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s491ms
+    //    2016-08-20 16:59:21,633 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m10s730ms
+    //    2016-08-20 16:59:21,633 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m10s790ms
+    //    2016-08-20 16:59:21,633 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m10s416ms
+    //    2016-08-20 16:59:21,640 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s645ms
+    //    2016-08-20 16:57:55,798 [main]-DEBUG (PlainTestCase@log():660) - 1: 00m11s671ms
+    //    2016-08-20 16:57:55,798 [main]-DEBUG (PlainTestCase@log():660) - 2: 00m09s753ms
+    //    2016-08-20 16:57:55,798 [main]-DEBUG (PlainTestCase@log():660) - 3: 00m11s208ms
+    //    2016-08-20 16:57:55,807 [main]-DEBUG (PlainTestCase@log():660) -  => avg: 00m10s877ms
+    //    2016-08-20 16:57:55,807 [main]-DEBUG (PlainTestCase@log():660) - Total line count: 122443
+    //    2016-08-20 16:57:55,808 [main]-DEBUG (PlainTestCase@log():660) - Total word count: 6118050
+    //    2016-08-20 16:57:55,808 [main]-DEBUG (PlainTestCase@log():660) - Total file count: 437
 }

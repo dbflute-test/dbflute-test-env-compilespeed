@@ -9,7 +9,7 @@ import org.docksidestage.compilespeed.unit.UnitContainerTestCase;
 /**
  * @author jflute
  */
-public class FileSizeTest extends UnitContainerTestCase {
+public class FileChangeTest extends UnitContainerTestCase {
 
     public void test_show_current_fileSize() throws Exception {
         showFileInfo();
