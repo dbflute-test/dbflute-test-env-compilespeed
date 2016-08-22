@@ -3,10 +3,6 @@ Compile Speed Test
 test project to improve compile speed using Spring and H2
 
 # Structure
-- magicpile-base: has magicpile-dfgenerated.jar in repo as maven repository
-- magicpile-common: has DBFlute client, extended-classes without base-classes, refers jar
-- magicpile-dfgenerated: has base-classes with dummy extended-classes, becomes jar
-
 ```
 dbflute-test-env-compilespeed
  |-src/main/java
@@ -15,9 +11,9 @@ dbflute-test-env-compilespeed
  |
  |-src/main/java
  |  |-org.docksidestage.compilespped
- |     |-AnalyzeCompileTimeTest // analyze here
+ |     |-CompileTimeTest // analyze here
  |
- |-dbflute_magicpiledb
+ |-dbflute_maihamadb
  |-mydbflute
  |-...
 ```
